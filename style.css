@@ -1,0 +1,95 @@
+  @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Bodoni+Moda:wght@400;900&family=Bree+Serif&family=Crimson+Text&family=Open+Sans&family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.01rem;
+}
+
+body{
+    background: linear-gradient(to left ,#6fffe9,#5bc0be);
+}   
+.container{ 
+    height: 20vh;
+    width: 40vw;
+    margin-left: 30% ;
+    margin-top: 10%;
+    background-color: #0466c8;
+    box-shadow: 8px 10px 10px 5px #044c94;
+    border: 2px solid black;
+}
+.newtask{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input{
+    height: 50%;
+    width: 60%;
+    margin-top: 6%;
+    margin-left: 6%; 
+    border-radius: 5px ;
+    border: none;
+    padding: 10px;
+    font-weight: 800;
+
+}
+.btn{
+    height: 8.2vh;
+    width: 15%;
+    cursor: pointer;
+    margin-right: 6%;
+    font-weight: 800;
+    margin-top: 5vh;
+}
+.todo{
+   height:20vh;
+   width: 40vw;
+   /* margin-left: 30%; */
+   margin-top: 15%;
+
+}
+.task{
+    height :15vh;
+    width: 40vw;
+    /* margin-top: 5%; */
+    background-color: #ffffff;
+    display: flex;
+    border-bottom: 2px solid #d1d0d0;
+    justify-content: space-between;
+    padding: 30px;
+    cursor: pointer;
+}
+.task span{
+    /* background-color: rgb(244, 244, 244); */
+    /* display: block; */
+    position: relative;
+    height: 10%;
+    /* width: 88%; */
+    /* left: 6%;  */
+    top: 35%;
+    /* margin-right: 10%; */
+    font-weight: 800;
+    /* padding: 10px; */
+    border-radius: 5px;
+    display: flex;
+    /* justify-content:space-between; */
+    align-items: center;
+}
+.delete{
+    height: 80%;
+    /* width: 8%; */
+    margin-left: 10%;
+    border:none;
+    background:none;
+    cursor: pointer;
+}
+.delete:hover{
+    color: #0466c8;
+}
+.completed{
+    text-decoration: line-through;
+    cursor: pointer;
+}
